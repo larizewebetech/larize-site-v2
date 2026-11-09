@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Metadados SEO & Compartilhamento -->
+  <title>Larize Web &amp; Tech — Tecnologia que impulsiona seu crescimento</title>
+  <meta name="description" content="Soluções digitais descomplicadas e acessíveis para autônomos e pequenos negócios fortalecerem sua presença digital. Desenvolvimento de sites e landing pages, automação de WhatsApp e suporte contínuo.">
+  <meta name="author" content="Lara — Larize Web &amp; Tech">
+  <meta name="theme-color" content="#0F0A1A">
+
+  <!-- Open Graph / Meta Tags de Compartilhamento (Facebook, WhatsApp, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Larize Web &amp; Tech — Tecnologia que impulsiona seu crescimento">
+  <meta property="og:description" content="Soluções digitais descomplicadas e acessíveis para autônomos e pequenos negócios fortalecerem sua presença digital.">
+  <meta property="og:image" content="assets/images/og-share.jpg">
+  <meta property="og:image:alt" content="Larize Web &amp; Tech — Tecnologia que impulsiona seu crescimento">
+  <meta property="og:image:width" content="1024">
+  <meta property="og:image:height" content="537">
+  <meta property="og:url" content="./">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Larize Web &amp; Tech">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Larize Web &amp; Tech — Tecnologia que impulsiona seu crescimento">
+  <meta name="twitter:description" content="Soluções digitais descomplicadas e acessíveis para autônomos e pequenos negócios fortalecerem sua presença digital.">
+  <meta name="twitter:image" content="assets/images/og-share.jpg">
+  <meta name="twitter:image:alt" content="Larize Web &amp; Tech — Tecnologia que impulsiona seu crescimento">
+
+  <!-- Favicon Oficial (Símbolo L da Larize) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+
+  <!-- Tipografia Oficial: Montserrat (Títulos) & Inter (Textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="topo">
+
+  <!-- Link de Acessibilidade (Web Standards W3C) -->
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- =========================================================================
+       CABEÇALHO & NAVEGAÇÃO
+       ========================================================================= -->
+  <header class="header" role="banner">
+    <div class="container header-container">
+
+      <!-- Logotipo Oficial da Marca -->
+      <a href="#topo" class="logo-link" aria-label="Larize Web &amp; Tech - Página Inicial">
+        <img src="assets/images/logo.png" alt="Logotipo Larize Web &amp; Tech" class="logo-img" width="160" height="64">
+      </a>
+
+      <!-- Controle do Menu Mobile (Puro CSS com acessibilidade) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Abrir ou fechar menu de navegação">
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span></span>
+      </label>
+
+      <!-- Navegação Principal -->
+      <nav class="nav-menu" role="navigation" aria-label="Navegação Principal">
+        <a href="#sobre" class="nav-link" onclick="document.getElementById('nav-toggle').checked = false">Sobre</a>
+        <a href="#servicos" class="nav-link" onclick="document.getElementById('nav-toggle').checked = false">Serviços</a>
+        <a href="#vantagens" class="nav-link" onclick="document.getElementById('nav-toggle').checked = false">Vantagens</a>
+        <a href="#processo" class="nav-link" onclick="document.getElementById('nav-toggle').checked = false">Processo</a>
+        <a href="#contato" class="nav-link" onclick="document.getElementById('nav-toggle').checked = false">Contato</a>
+      </nav>
+
+      <!-- CTA no Cabeçalho Desktop -->
+      <div class="header-cta">
+        <a href="#contato" class="btn btn--primary">Fazer Orçamento</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       CONTEÚDO PRINCIPAL
+       ========================================================================= -->
+  <main id="conteudo-principal">
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 1: HERO
+         ----------------------------------------------------------------------- -->
+    <section class="section hero" aria-label="Apresentação da Larize Web &amp; Tech">
+      <div class="container">
+        <div class="hero-grid">
+
+          <div class="hero-content">
+            <span class="hero-badge">
+              <span class="hero-badge-dot"></span>
+              Soluções Digitais Sob Medida
+            </span>
+
+            <h1 class="hero-title">
+              Tecnologia que <span class="highlight">impulsiona seu crescimento</span>.
+            </h1>
+
+            <p class="hero-description">
+              Ajudamos pequenos negócios e profissionais autônomos a conquistarem uma presença digital profissional, moderna e focada em resultados reais — sem complexidade e sem custos abusivos.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contato" class="btn btn--primary">
+                <span>Solicitar Proposta</span>
+                <svg class="icon btn-icon" viewBox="0 0 24 24" stroke-width="2.2" aria-hidden="true"><use href="#i-arrow-right"></use></svg>
+              </a>
+              <a href="#servicos" class="btn btn--outline">Conhecer Serviços</a>
+            </div>
+
+            <!-- Itens de Valor Rápido -->
+            <div class="hero-features-list">
+              <div class="hero-feature-item">
+                <svg class="icon hero-feature-icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Sites 100% responsivos</span>
+              </div>
+              <div class="hero-feature-item">
+                <svg class="icon hero-feature-icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Comunicação direta e transparente</span>
+              </div>
+              <div class="hero-feature-item">
+                <svg class="icon hero-feature-icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Código limpo e sustentável</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Composição Visual: Soluções Digitais da Larize -->
+          <div class="hero-visual">
+            <aside class="hero-showcase" aria-label="Ecossistema de Soluções Digitais Larize">
+
+              <div class="showcase-header">
+                <div class="showcase-status">
+                  <span class="status-indicator-live" aria-hidden="true"></span>
+                  <span class="status-title">Presença Digital Ativa</span>
+                </div>
+                <span class="showcase-badge">Soluções Larize</span>
+              </div>
+
+              <div class="showcase-cards">
+
+                <!-- Solução 1: Sites e Landing Pages -->
+                <div class="showcase-item">
+                  <div class="showcase-item-header">
+                    <div class="showcase-icon-box" aria-hidden="true">
+                      <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-layout"></use></svg>
+                    </div>
+                    <div class="showcase-item-meta">
+                      <h4>Sites &amp; Landing Pages</h4>
+                      <p>Páginas modernas e adaptadas para celulares</p>
+                    </div>
+                    <span class="showcase-tag tag-green">Online</span>
+                  </div>
+                  <div class="browser-bar" aria-hidden="true">
+                    <span class="browser-lock">🔒</span>
+                    <span class="browser-url">seunegocio.com.br</span>
+                    <span class="browser-speed">⚡ Rápido</span>
+                  </div>
+                </div>
+
+                <!-- Solução 2: Automação no WhatsApp -->
+                <div class="showcase-item">
+                  <div class="showcase-item-header">
+                    <div class="showcase-icon-box" aria-hidden="true">
+                      <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-message-circle"></use></svg>
+                    </div>
+                    <div class="showcase-item-meta">
+                      <h4>Automação no WhatsApp</h4>
+                      <p>Atendimento ágil para não perder novos contatos</p>
+                    </div>
+                    <span class="showcase-tag tag-purple">Ativo 24h</span>
+                  </div>
+                  <div class="chat-mini-preview" aria-hidden="true">
+                    <div class="chat-bubble chat-bubble--client">Olá! Gostaria de conhecer seus serviços.</div>
+                    <div class="chat-bubble chat-bubble--bot">
+                      <strong>Larize:</strong> Olá! Que bom ter você aqui. Como posso ajudar seu negócio hoje?
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Solução 3: Suporte & Manutenção -->
+                <div class="showcase-item">
+                  <div class="showcase-item-header">
+                    <div class="showcase-icon-box" aria-hidden="true">
+                      <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-shield-check"></use></svg>
+                    </div>
+                    <div class="showcase-item-meta">
+                      <h4>Suporte &amp; Manutenção</h4>
+                      <p>Seu site sempre atualizado, estável e no ar</p>
+                    </div>
+                    <span class="showcase-tag tag-lavender">Protegido</span>
+                  </div>
+                  <div class="support-status-bar" aria-hidden="true">
+                    <span class="support-check">✓ Segurança ativa</span>
+                    <span class="support-check">✓ Atualizações periódicas</span>
+                    <span class="support-check">✓ Suporte direto</span>
+                  </div>
+                </div>
+
+              </div>
+
+            </aside>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 2: SOBRE A MARCA & A DESENVOLVEDORA
+         ----------------------------------------------------------------------- -->
+    <section id="sobre" class="section section--light" aria-labelledby="titulo-sobre">
+      <div class="container">
+        <div class="about-grid">
+
+          <div class="about-content">
+            <span class="section-tag section-tag--purple">Origem &amp; Propósito</span>
+            <h2 id="titulo-sobre" class="section-title section-title--dark">
+              A essência da <span class="text-gradient">Larize</span> e quem constrói suas soluções
+            </h2>
+
+            <p class="about-lead">
+              O nome <strong>Larize</strong> nasce da fusão com a palavra inglesa <em>"rise"</em> — que simboliza erguer-se, crescer e evoluir constantemente.
+            </p>
+
+            <p class="about-text">
+              Em um mercado onde a presença digital muitas vezes é dominada por soluções caras, templates genéricos e plataformas complexas, a Larize existe para democratizar a tecnologia. Apoiamos pequenos empreendedores, autônomos e prestadores de serviços que precisam de um posicionamento digital profissional para conquistar mais clientes e otimizar processos.
+            </p>
+
+            <!-- Pilares de Atuação -->
+            <div class="about-pillars">
+              <article class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-shield-check"></use></svg>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Transparência e Honestidade</h3>
+                  <p class="pillar-desc">Sem termos técnicos difíceis para justificar cobranças desnecessárias. Você entende tudo o que está sendo construído e o valor que cada ferramenta agrega ao seu negócio.</p>
+                </div>
+              </article>
+
+              <article class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-user-check"></use></svg>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Atendimento Direto com a Desenvolvedora</h3>
+                  <p class="pillar-desc">Nada de passar por três atendentes antes de tirar uma dúvida. Todo o planejamento, desenvolvimento e suporte é conduzido diretamente com quem coloca as mãos no código.</p>
+                </div>
+              </article>
+
+              <article class="pillar-item">
+                <div class="pillar-icon-box" aria-hidden="true">
+                  <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-code"></use></svg>
+                </div>
+                <div>
+                  <h3 class="pillar-title">Rigor Técnico e Código Limpo</h3>
+                  <p class="pillar-desc">Projetos estruturados seguindo boas práticas de Web Standards, com foco em velocidade de carregamento, semântica correta e facilidade de manutenção futura.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Card de Apresentação da Lara -->
+          <div class="about-visual">
+            <aside class="creator-card" aria-label="Perfil da Desenvolvedora">
+              <div class="creator-header">
+                <div class="creator-avatar" aria-hidden="true">L</div>
+                <div class="creator-meta">
+                  <h3>Lara</h3>
+                  <span class="creator-badge">Fundadora &amp; Desenvolvedora</span>
+                </div>
+              </div>
+
+              <blockquote class="creator-quote">
+                "Minha meta com a Larize é transformar o conhecimento técnico de sala de aula em soluções práticas e acessíveis que verdadeiramente ajudem profissionais a crescerem no digital."
+              </blockquote>
+
+              <p class="about-text about-text--sm">
+                Estudante de Análise e Desenvolvimento de Sistemas (ADS), Lara dedica seus estudos à criação de interfaces limpas, ao desenvolvimento de código semântico e à construção de fluxos de automação intuitivos. A Larize representa a união entre seu conhecimento técnico, sua criatividade e sua visão empreendedora.
+              </p>
+
+              <div class="creator-tags">
+                <span class="creator-tag-item">Análise e Desenv. de Sistemas</span>
+                <span class="creator-tag-item">Desenvolvimento Web</span>
+                <span class="creator-tag-item">HTML5 &amp; CSS3</span>
+                <span class="creator-tag-item">Automações WhatsApp</span>
+                <span class="creator-tag-item">Design Responsivo</span>
+              </div>
+            </aside>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 3: SERVIÇOS OFERECIDOS
+         ----------------------------------------------------------------------- -->
+    <section id="servicos" class="section section--dark" aria-labelledby="titulo-servicos">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-tag section-tag--light-purple">Nossos Serviços</span>
+          <h2 id="titulo-servicos" class="section-title section-title--light">
+            Soluções digitais desenhadas para <span class="text-gradient">gerar resultados</span>
+          </h2>
+          <p class="section-subtitle">
+            Do primeiro site à automação de mensagens no seu WhatsApp, oferecemos serviços focados nas necessidades reais de quem empreende.
+          </p>
+        </header>
+
+        <div class="services-grid">
+
+          <!-- Serviço 1: Sites e Landing Pages -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-layout"></use></svg>
+              </div>
+              <span class="service-tag">Presença &amp; Conversão</span>
+            </div>
+
+            <h3 class="service-title">Desenvolvimento de Sites e Landing Pages</h3>
+            <p class="service-description">
+              Criação de páginas exclusivas, rápidas e totalmente adaptadas para smartphones, tablets e computadores. Projetadas estrategicamente para apresentar seus serviços com clareza e transformar visitantes em clientes reais.
+            </p>
+
+            <ul class="service-features" aria-label="Recursos inclusos no serviço de sites">
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Layout personalizado com a identidade da sua marca</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>100% responsivo para navegação em celulares</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Carregamento ágil e otimização para buscadores (SEO básico)</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Integração com formulários e botões de contato direto</span>
+              </li>
+            </ul>
+
+            <a href="#contato" class="btn btn--outline btn--full">Solicitar Orçamento</a>
+          </article>
+
+          <!-- Serviço 2: Automação WhatsApp -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-message-circle"></use></svg>
+              </div>
+              <span class="service-tag">Agilidade &amp; Vendas</span>
+            </div>
+
+            <h3 class="service-title">Automação de Atendimento via WhatsApp</h3>
+            <p class="service-description">
+              Estruturação de fluxos de mensagens inteligentes para responder seus contatos de forma imediata, tirar dúvidas frequentes e organizar o primeiro atendimento sem que você precise parar o que está fazendo.
+            </p>
+
+            <ul class="service-features" aria-label="Recursos inclusos no serviço de automação">
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Mensagens de boas-vindas e ausência programadas</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Menu de opções para triagem inicial do cliente</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Respostas automáticas para dúvidas recorrentes</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Economia de tempo precioso na rotina de atendimento</span>
+              </li>
+            </ul>
+
+            <a href="#contato" class="btn btn--outline btn--full">Automatizar Atendimento</a>
+          </article>
+
+          <!-- Serviço 3: Suporte & Manutenção -->
+          <article class="service-card">
+            <div class="service-card-top">
+              <div class="service-icon-box" aria-hidden="true">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-shield-check"></use></svg>
+              </div>
+              <span class="service-tag">Segurança &amp; Continuidade</span>
+            </div>
+
+            <h3 class="service-title">Suporte e Manutenção de Sites</h3>
+            <p class="service-description">
+              Acompanhamento contínuo para garantir que sua página permaneça segura, no ar e atualizada com suas novas fotos, textos ou serviços, evitando problemas técnicos inesperados.
+            </p>
+
+            <ul class="service-features" aria-label="Recursos inclusos no serviço de suporte">
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Atualização periódica de conteúdos, links e contatos</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Verificação de funcionamento e integridade técnica</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Otimizações contínuas de velocidade de carregamento</span>
+              </li>
+              <li class="service-feature-item">
+                <svg class="icon" viewBox="0 0 24 24" stroke-width="2.5" aria-hidden="true"><use href="#i-check"></use></svg>
+                <span>Canal direto para tirar dúvidas e solicitar ajustes rápidos</span>
+              </li>
+            </ul>
+
+            <a href="#contato" class="btn btn--outline btn--full">Contratar Suporte</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 4: VANTAGENS & BENEFÍCIOS
+         ----------------------------------------------------------------------- -->
+    <section id="vantagens" class="section section--light-alt" aria-labelledby="titulo-vantagens">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-tag section-tag--purple">Diferenciais</span>
+          <h2 id="titulo-vantagens" class="section-title section-title--dark">
+            Por que escolher a <span class="text-gradient">Larize Web &amp; Tech</span>?
+          </h2>
+          <p class="section-subtitle">
+            Benefícios práticos e transparentes pensados especialmente para a realidade e o orçamento de quem trabalha por conta própria.
+          </p>
+        </header>
+
+        <div class="benefits-grid">
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-user-check"></use></svg>
+            </div>
+            <h3 class="benefit-title">Comunicação Direta</h3>
+            <p class="benefit-text">Você fala diretamente com a Lara durante todo o projeto. Sem intermediários, sem termos complicados e sem ruídos no alinhamento das ideias.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-code"></use></svg>
+            </div>
+            <h3 class="benefit-title">Código Leve e Sob Medida</h3>
+            <p class="benefit-text">Sites desenvolvidos artesanalmente, sem plugins pesados ou códigos desnecessários que deixam a página lenta e travando no celular.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-smartphone"></use></svg>
+            </div>
+            <h3 class="benefit-title">Foco Total em Celulares</h3>
+            <p class="benefit-text">Mais de 80% dos clientes acessam a internet pelo smartphone. Seu site é construído para oferecer uma navegação rápida e perfeita no mobile.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-zap"></use></svg>
+            </div>
+            <h3 class="benefit-title">Preço Justo para Empreendedores</h3>
+            <p class="benefit-text">Propostas realistas e compatíveis com quem está investindo no próprio negócio, sem custos surpresa ou mensalidades ocultas.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-globe"></use></svg>
+            </div>
+            <h3 class="benefit-title">Autonomia e Liberdade</h3>
+            <p class="benefit-text">Você tem posse total dos seus dados e arquivos. Nada de ficar preso a plataformas fechadas que cobram taxas para você ter o seu site.</p>
+          </article>
+
+          <article class="benefit-card">
+            <div class="benefit-icon-wrapper" aria-hidden="true">
+              <svg class="icon" viewBox="0 0 24 24" stroke-width="2"><use href="#i-shield-check"></use></svg>
+            </div>
+            <h3 class="benefit-title">Padrões Web Oficiais (W3C)</h3>
+            <p class="benefit-text">Desenvolvimento fundamentado na disciplina Web Standards, garantindo acessibilidade, semântica correta e compatibilidade com navegadores.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 5: METODOLOGIA / COMO FUNCIONA
+         ----------------------------------------------------------------------- -->
+    <section id="processo" class="section section--dark-alt" aria-labelledby="titulo-processo">
+      <div class="container">
+
+        <header class="section-header">
+          <span class="section-tag section-tag--light-purple">Metodologia</span>
+          <h2 id="titulo-processo" class="section-title section-title--light">
+            Como funciona o <span class="text-gradient">processo de trabalho</span>
+          </h2>
+          <p class="section-subtitle">
+            Um fluxo simples, transparente e sem burocracia, do primeiro bate-papo até a entrega do seu projeto no ar.
+          </p>
+        </header>
+
+        <div class="process-grid">
+
+          <article class="process-step">
+            <span class="process-number">01</span>
+            <h3 class="process-title">Diagnóstico &amp; Alinhamento</h3>
+            <p class="process-description">
+              Conversamos para entender seu modelo de trabalho, seu público-alvo, suas preferências visuais e o objetivo principal do projeto.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <span class="process-number">02</span>
+            <h3 class="process-title">Planejamento &amp; Proposta</h3>
+            <p class="process-description">
+              Estruturamos a proposta com o escopo exato, prazos realistas e o valor detalhado, com total clareza antes de qualquer compromisso.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <span class="process-number">03</span>
+            <h3 class="process-title">Desenvolvimento &amp; Validação</h3>
+            <p class="process-description">
+              O código é desenvolvido com padrões limpos e você recebe prévias para avaliar o andamento, solicitar ajustes e validar cada detalhe.
+            </p>
+          </article>
+
+          <article class="process-step">
+            <span class="process-number">04</span>
+            <h3 class="process-title">Publicação &amp; Suporte</h3>
+            <p class="process-description">
+              Publicamos sua página na internet, testamos todos os fluxos e fornecemos as orientações necessárias para você usar com tranquilidade.
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------------------------------------------------------------------
+         SEÇÃO 6: CONTATO COM FORMULÁRIO (INTEGRAÇÃO WEB3FORMS)
+         ----------------------------------------------------------------------- -->
+    <section id="contato" class="section section--dark" aria-labelledby="titulo-contato">
+      <div class="container">
+        <div class="contact-grid">
+
+          <!-- Informações de Contato & Reafirmação -->
+          <div class="contact-info">
+            <div>
+              <div class="contact-info-header">
+                <span class="section-tag section-tag--light-purple">Vamos Conversar?</span>
+                <h2 id="titulo-contato" class="section-title section-title--light">
+                  Pronto para dar o <span class="text-gradient">próximo passo</span>?
+                </h2>
+                <p class="section-subtitle">
+                  Preencha o formulário ao lado ou entre em contato pelos canais diretos para tirar dúvidas ou solicitar uma proposta sem compromisso.
+                </p>
+              </div>
+
+              <div class="contact-channels">
+                <div class="contact-channel-item">
+                  <div class="contact-channel-icon" aria-hidden="true">
+                    <svg class="icon channel-svg" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" focusable="false"><use href="#i-mail"></use></svg>
+                  </div>
+                  <div class="contact-channel-meta">
+                    <h4>E-mail Oficial</h4>
+                    <a href="mailto:larizewebetech@gmail.com">larizewebetech@gmail.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-channel-item">
+                  <div class="contact-channel-icon" aria-hidden="true">
+                    <svg class="icon channel-svg" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" focusable="false"><use href="#i-message-circle"></use></svg>
+                  </div>
+                  <div class="contact-channel-meta">
+                    <h4>WhatsApp Direto</h4>
+                    <a href="https://wa.me/?text=Ol%C3%A1%20Lara%2C%20gostaria%20de%20conversar%20sobre%20as%20solu%C3%A7%C3%B5es%20da%20Larize%20Web%20%26%20Tech" target="_blank" rel="noopener noreferrer">Conversar pelo WhatsApp</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulário com Web3Forms -->
+          <div class="contact-form-wrapper">
+            <header class="form-header">
+              <h3>Envie sua mensagem</h3>
+              <p>Retornamos o contato em até 24 horas úteis com atenção dedicada.</p>
+            </header>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+
+              <!-- Chave de Acesso Web3Forms Oficial -->
+              <input type="hidden" name="access_key" value="62cbe40f-4ae9-4653-b89b-1d0e1370d6f0">
+              <input type="hidden" name="subject" value="Nova mensagem recebida pelo site Larize Web &amp; Tech">
+              <input type="hidden" name="from_name" value="Larize Web &amp; Tech Landing Page">
+
+              <!-- Proteção Antispam Honeypot nativa do Web3Forms -->
+              <input type="checkbox" name="botcheck" class="form-honeypot">
+
+              <!-- Campo: Nome Completo -->
+              <div class="form-group">
+                <label for="nome" class="form-label">Nome Completo</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  class="form-input"
+                  placeholder="Seu nome ou nome da sua empresa"
+                  required
+                  minlength="3"
+                  autocomplete="name"
+                >
+              </div>
+
+              <!-- Campo: E-mail -->
+              <div class="form-group">
+                <label for="email" class="form-label">E-mail para Retorno</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="exemplo@seudominio.com"
+                  required
+                  autocomplete="email"
+                >
+              </div>
+
+              <!-- Campo: Serviço de Interesse -->
+              <div class="form-group">
+                <label for="servico" class="form-label">Serviço de Interesse</label>
+                <select id="servico" name="servico" class="form-select" required>
+                  <option value="" disabled selected>Selecione uma opção...</option>
+                  <option value="Desenvolvimento de Sites / Landing Pages">Desenvolvimento de Sites ou Landing Pages</option>
+                  <option value="Automação de Atendimento WhatsApp">Automação de Atendimento via WhatsApp</option>
+                  <option value="Suporte e Manutenção de Sites">Suporte e Manutenção de Sites</option>
+                  <option value="Consultoria ou Outro Assunto">Outro assunto / Dúvida geral</option>
+                </select>
+              </div>
+
+              <!-- Campo: Mensagem -->
+              <div class="form-group">
+                <label for="mensagem" class="form-label">Como podemos ajudar você?</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  class="form-textarea"
+                  rows="4"
+                  placeholder="Conte um pouco sobre o seu projeto, negócio ou as necessidades que você gostaria de resolver..."
+                  required
+                  minlength="10"
+                ></textarea>
+              </div>
+
+              <!-- Botão de Envio com Validação Nativa -->
+              <button type="submit" class="btn btn--primary btn--full">
+                <span>Enviar Solicitação</span>
+                <svg class="icon btn-icon" viewBox="0 0 24 24" stroke-width="2.2" aria-hidden="true"><use href="#i-send"></use></svg>
+              </button>
+
+              <p class="form-note">
+                🔒 Seus dados serão usados exclusivamente para retornar o seu contato comercial.
+              </p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       RODAPÉ
+       ========================================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo.png" alt="Logotipo Larize Web &amp; Tech" class="logo-img" width="160" height="64">
+          <p class="footer-slogan">
+            <strong>Tecnologia que impulsiona seu crescimento.</strong><br>
+            Soluções digitais acessíveis, modernas e funcionais para pequenos negócios e profissionais autônomos.
+          </p>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-column">
+            <h4>Navegação</h4>
+            <ul class="footer-nav">
+              <li><a href="#sobre">Sobre a Marca</a></li>
+              <li><a href="#servicos">Nossos Serviços</a></li>
+              <li><a href="#vantagens">Vantagens &amp; Diferenciais</a></li>
+              <li><a href="#processo">Como Trabalhamos</a></li>
+              <li><a href="#contato">Fale Conosco</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Serviços</h4>
+            <ul class="footer-nav">
+              <li><a href="#servicos">Desenvolvimento Web</a></li>
+              <li><a href="#servicos">Landing Pages</a></li>
+              <li><a href="#servicos">Automação de WhatsApp</a></li>
+              <li><a href="#servicos">Suporte &amp; Manutenção</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Contato Direto</h4>
+            <ul class="footer-nav">
+              <li><a href="mailto:larizewebetech@gmail.com">larizewebetech@gmail.com</a></li>
+              <li><a href="#contato">Formulário Online</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>
+          &copy; 2026 <strong>Larize Web &amp; Tech</strong>. Desenvolvido por <strong>Lara</strong> — Estudante de ADS (Web Standards — Senac). Todos os direitos reservados.
+        </p>
+
+        <a href="#topo" class="back-to-top" aria-label="Voltar ao início da página">
+          <span>Voltar ao topo</span>
+          <svg class="icon" width="18" height="18" viewBox="0 0 24 24" stroke-width="2.2" aria-hidden="true"><use href="#i-arrow-up"></use></svg>
+        </a>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       BOTÃO FLUTUANTE DO WHATSAPP (Acesso Rápido)
+       ========================================================================= -->
+  <a
+    href="https://wa.me/?text=Ol%C3%A1%20Lara%2C%20estou%20visitando%20o%20site%20da%20Larize%20Web%20%26%20Tech%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida."
+    class="floating-whatsapp"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar conosco diretamente pelo WhatsApp"
+  >
+    <svg class="icon" width="30" height="30" viewBox="0 0 24 24" stroke-width="2" aria-hidden="true" focusable="false"><use href="#i-message-circle"></use></svg>
+  </a>
+
+  <!-- Sprite de ícones SVG: cada desenho é definido uma vez e reutilizado com <use> -->
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></symbol>
+    <symbol id="i-check"><polyline points="20 6 9 17 4 12"></polyline></symbol>
+    <symbol id="i-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></symbol>
+    <symbol id="i-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></symbol>
+    <symbol id="i-shield-check"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 12 2 2 4-4"></path></symbol>
+    <symbol id="i-user-check"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7.5" r="4"></circle><polyline points="17 11 19 13 23 9"></polyline></symbol>
+    <symbol id="i-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></symbol>
+    <symbol id="i-smartphone"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></symbol>
+    <symbol id="i-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></symbol>
+    <symbol id="i-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></symbol>
+    <symbol id="i-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></symbol>
+    <symbol id="i-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></symbol>
+    <symbol id="i-arrow-up"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></symbol>
+  </svg>
+
+</body>
+</html>
+
